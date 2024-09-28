@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "vesters:c4"
+    },
+    {
+      "item": "minecraft:leather_chestplate"
+    }
+  ],
+  "result": {
+    "item": "vesters:bomb_vest"
+  }
+}

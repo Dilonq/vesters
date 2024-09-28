@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vesters",
+	"version": "0.2-1.20.1",
+	"name": "vesters",
+	"description": "Adds Phones and Vests",
+	"authors": [
+		"DJH"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/vesters/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"djh.vesters.Vesters"
+		],
+		"fabric-datagen": [
+			"djh.vesters.VestersDataGenerator"
+		],
+		"client": [
+			"djh.vesters.VestersClient"
+		]
+	},
+	"mixins": [
+		"vesters.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

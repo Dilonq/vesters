@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "minecraft:tnt"
+    },
+    "p": {
+      "item": "vesters:phone"
+    }
+  },
+  "pattern": [
+    "TTT",
+    "TpT",
+    "TTT"
+  ],
+  "result": {
+    "item": "vesters:c4"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "item.vesters.phone": "Nokia",
+  "item.vesters.c4": "C4",
+  "item.vesters.bomb_vest": "Bomb Vest",
+  "itemgroup.vesters": "Vesters",
+  "item.vesters.phone.mynumber": "My # - %s",
+  "item.vesters.phone.speeddial": "Speeddial # - %s",
+  "item.vesters.phone.unregistered": "Unregistered Phone",
+  "item.vesters.phone.emptyspeeddial": "Use /setdial to set speed dial #",
+  "item.vesters.c4.unregistered": "Unregistered C4",
+  "item.vesters.bomb_vest.unregistered": "Unregistered Bomb Vest",
+  "item.vesters.phone.useregistercommand": "Use /register",
+  "item.vesters.phone.registeredwith": "Phone registered with # %s",
+  "item.vesters.c4.registeredwith": "C4 registered with # %s",
+  "item.vesters.bomb_vest.registeredwith": "Bomb Vest registered with # %s",
+  "item.vesters.phone.outgoingcall": "Calling %s",
+  "item.vesters.phone.incomingcall": "Call from %s"
+}
