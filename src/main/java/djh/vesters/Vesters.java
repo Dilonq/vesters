@@ -21,6 +21,7 @@ import java.util.Random;
 import static net.minecraft.server.command.CommandManager.*;
 
 public class Vesters implements ModInitializer {
+	//primary class file for mod
 	public static final String MOD_ID = "vesters";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
