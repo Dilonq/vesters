@@ -1,8 +1,13 @@
 {
+  "item.vesters.molotov": "Molotov",
   "item.vesters.phone": "Nokia",
   "item.vesters.c4": "C4",
   "item.vesters.bomb_vest": "Bomb Vest",
+
+
   "itemgroup.vesters": "Vesters",
+
+
   "item.vesters.phone.mynumber": "My # - %s",
   "item.vesters.phone.speeddial": "Speeddial # - %s",
   "item.vesters.phone.unregistered": "Unregistered Phone",

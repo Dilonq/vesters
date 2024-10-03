@@ -2,6 +2,7 @@ package djh.vesters.item;
 
 import djh.vesters.Vesters;
 import djh.vesters.item.custom.BombVestItem;
+import djh.vesters.item.custom.MolotovItem;
 import djh.vesters.item.custom.PhoneItem;
 import djh.vesters.item.custom.C4Item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -18,13 +19,11 @@ public class ModItems {
     public static final Item PHONE = registerItem("phone", new PhoneItem(new FabricItemSettings().maxCount(1)));
     public static final Item C4 = registerItem("c4", new C4Item(new FabricItemSettings().maxCount(1)));
     public static final Item BOMB_VEST = registerItem("bomb_vest",new BombVestItem(ModArmorMaterials.BOMB_VEST, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
-//    public static final Item BOMB_VEST = registerItem("bomb_vest", new BombVestItem(new FabricItemSettings().maxCount(1)));
+    public static final Item MOLOTOV = registerItem("molotov",new MolotovItem(new FabricItemSettings().maxCount(3)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
-        //commented out because these are added to a custom item group
+        //commented out because everything just gets added to a custom item group
 //        entries.add(PHONE);
-//        entries.add(C4);
-//        entries.add(BOMB_VEST);
     }
 
     private static Item registerItem(String name, Item item){

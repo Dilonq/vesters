@@ -88,7 +88,9 @@ public class PhoneItem extends Item{
                     if (itemstack.isOf(ModItems.C4) && itemstack.hasNbt()){
                         if (itemstack.getNbt().get("myNumber").asString().equals(number)){
 
-                            player.getInventory().removeOne(itemstack);
+                            if (!user.getAbilities().creativeMode) {
+                                itemstack.decrement(1);
+                            }
                             explodeAt(world,player.getPos());
                         }
                     }
@@ -96,7 +98,9 @@ public class PhoneItem extends Item{
                 if (player.getOffHandStack().isOf(ModItems.C4) && player.getOffHandStack().hasNbt()){
                     if (player.getOffHandStack().getNbt().get("myNumber").asString().equals(number)){
 
-                        player.getInventory().removeOne(player.getOffHandStack());
+                        if (!user.getAbilities().creativeMode) {
+                            player.getInventory().removeOne(player.getOffHandStack());
+                        }
                         explodeAt(world,player.getPos());
                     }
                 }
@@ -106,7 +110,9 @@ public class PhoneItem extends Item{
                     if (player.getInventory().getArmorStack(2).hasNbt()){
                         if (player.getInventory().getArmorStack(2).getNbt().get("myNumber").asString().equals(number)){
 
-                            player.getInventory().removeOne(player.getInventory().getArmorStack(2));
+                            if (!user.getAbilities().creativeMode) {
+                                player.getInventory().removeOne(player.getInventory().getArmorStack(2));
+                            }
                             explodeAt(world,player.getPos());
                         }
                     }
