@@ -18,6 +18,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PHONE);
                         entries.add(ModItems.C4);
                         entries.add(ModItems.BOMB_VEST);
+                        entries.add(ModItems.MOLOTOV);
                     }).build());
     public static void registerItemGroups(){
         Vesters.LOGGER.info("Registering Item Groups for "+Vesters.MOD_ID);

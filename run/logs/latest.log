@@ -110,3 +110,82 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 [18:45:54] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
 [18:45:54] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
 [18:45:54] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18:48:42] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[18:48:43] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[18:48:43] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.040 ms
+[18:48:43] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[18:48:43] [Server thread/INFO] (Minecraft) Generating keypair
+[18:48:44] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[18:48:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:48:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:48:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:48:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:48:46] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[18:48:47] [Render thread/INFO] (Minecraft) Preparing spawn area: 94%
+[18:48:47] [Render thread/INFO] (Minecraft) Time elapsed: 2530 ms
+[18:48:47] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[18:48:47] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[18:48:47] [Server thread/INFO] (Minecraft) Player282[local:E:333d92bf] logged in with entity id 116 at (-146.34448203761377, 74.0, 297.8695288874044)
+[18:48:47] [Server thread/INFO] (Minecraft) Player282 joined the game
+[18:48:48] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[18:49:24] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:36] [Server thread/INFO] (Minecraft) [Player282: Set own game mode to Survival Mode]
+[18:49:36] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Survival Mode
+[18:49:50] [Server thread/INFO] (Minecraft) [Player282: Set own game mode to Creative Mode]
+[18:49:50] [Render thread/INFO] (Minecraft) [System] [CHAT] Set own game mode to Creative Mode
+[18:49:52] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:52] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:52] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:53] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:54] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:54] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:54] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:54] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:55] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:56] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:57] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:58] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
+[18:49:59] [Render thread/INFO] (Minecraft) [System] [CHAT] Calling 279950
