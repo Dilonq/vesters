@@ -57190,8 +57190,8 @@ net/minecraft/client/realms/dto/RealmsServerPlayerLists	40	39
 	33	32
 	36	35
 	20	21
-	21	22
 	37	36
+	21	22
 	40	39
 	24	25
 	25	26

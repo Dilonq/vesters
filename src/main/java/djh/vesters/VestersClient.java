@@ -13,5 +13,7 @@ public class VestersClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
 		EntityRendererRegistry.register(ModEntities.MOLOTOV_PROJECTILE, FlyingItemEntityRenderer::new);
+		EntityRendererRegistry.register(ModEntities.PBOMB_PROJECTILE, FlyingItemEntityRenderer::new);
 	}
+
 }

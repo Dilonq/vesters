@@ -1,6 +1,7 @@
 package djh.vesters.item;
 
 import djh.vesters.Vesters;
+import djh.vesters.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
@@ -19,6 +20,9 @@ public class ModItemGroups {
                         entries.add(ModItems.C4);
                         entries.add(ModItems.BOMB_VEST);
                         entries.add(ModItems.MOLOTOV);
+                        entries.add(ModItems.BOMB_FOOD);
+                        entries.add(ModItems.PIPE_BOMB);
+                        entries.add(ModBlocks.REMOTE_BOMB_BLOCK);
                     }).build());
     public static void registerItemGroups(){
         Vesters.LOGGER.info("Registering Item Groups for "+Vesters.MOD_ID);
