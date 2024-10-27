@@ -1,5 +1,5 @@
-[18:52:54] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
-[18:52:55] [main/INFO] (FabricLoader) Loading 59 mods:
+[19:08:53] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
+[19:08:53] [main/INFO] (FabricLoader) Loading 59 mods:
 	- fabric-api 0.92.2+1.20.1
 	- fabric-api-base 0.4.31+1802ada577
 	- fabric-api-lookup-api-v1 1.6.36+1802ada577
@@ -59,18 +59,19 @@
 	- minecraft 1.20.1
 	- mixinextras 0.4.1
 	- vesters 0.2-1.20.1
-[18:52:55] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/tsthi/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[18:52:55] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[18:52:55] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[18:52:55] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/class_1088$class_7778 (java.lang.ClassNotFoundException: net/minecraft/class_1088$class_7778)
-[18:52:55] [main/WARN] (FabricLoader/Mixin) @Mixin target net/minecraft/class_1088$class_7778 was not found fabric-model-loading-api-v1.mixins.json:ModelLoaderBakerImplMixin from mod fabric-model-loading-api-v1
-[18:52:55] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/class_638$class_5612 (java.lang.ClassNotFoundException: net/minecraft/class_638$class_5612)
-[18:52:55] [main/WARN] (FabricLoader/Mixin) @Mixin target net/minecraft/class_638$class_5612 was not found fabric-lifecycle-events-v1.client.mixins.json:ClientWorldClientEntityHandlerMixin from mod fabric-lifecycle-events-v1
-[18:52:55] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/class_5944$1 (java.lang.ClassNotFoundException: net/minecraft/class_5944$1)
-[18:52:55] [main/WARN] (FabricLoader/Mixin) @Mixin target net/minecraft/class_5944$1 was not found fabric-rendering-v1.mixins.json:shader.ShaderProgramImportProcessorMixin from mod fabric-rendering-v1
-[18:52:56] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[18:52:59] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 112 milliseconds
-[18:53:00] [Render thread/ERROR] (FabricLoader/Mixin) Mixin apply for mod fabric-events-interaction-v0 failed fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 -> net.minecraft.client.MinecraftClient: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
+[19:08:54] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/tsthi/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[19:08:54] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[19:08:54] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[19:08:54] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[19:08:54] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/class_1088$class_7778 (java.lang.ClassNotFoundException: net/minecraft/class_1088$class_7778)
+[19:08:54] [main/WARN] (FabricLoader/Mixin) @Mixin target net/minecraft/class_1088$class_7778 was not found fabric-model-loading-api-v1.mixins.json:ModelLoaderBakerImplMixin from mod fabric-model-loading-api-v1
+[19:08:54] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/class_638$class_5612 (java.lang.ClassNotFoundException: net/minecraft/class_638$class_5612)
+[19:08:54] [main/WARN] (FabricLoader/Mixin) @Mixin target net/minecraft/class_638$class_5612 was not found fabric-lifecycle-events-v1.client.mixins.json:ClientWorldClientEntityHandlerMixin from mod fabric-lifecycle-events-v1
+[19:08:54] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/class_5944$1 (java.lang.ClassNotFoundException: net/minecraft/class_5944$1)
+[19:08:54] [main/WARN] (FabricLoader/Mixin) @Mixin target net/minecraft/class_5944$1 was not found fabric-rendering-v1.mixins.json:shader.ShaderProgramImportProcessorMixin from mod fabric-rendering-v1
+[19:08:55] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:08:58] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 122 milliseconds
+[19:08:59] [Render thread/ERROR] (FabricLoader/Mixin) Mixin apply for mod fabric-events-interaction-v0 failed fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 -> net.minecraft.client.MinecraftClient: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
@@ -94,7 +95,7 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shado
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.5.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.5.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[18:53:00] [Render thread/ERROR] (FabricLoader/Mixin) Mixin apply for mod fabric-events-interaction-v0 failed fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 -> net.minecraft.client.MinecraftClient: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
+[19:08:59] [Render thread/ERROR] (FabricLoader/Mixin) Mixin apply for mod fabric-events-interaction-v0 failed fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 -> net.minecraft.client.MinecraftClient: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
 org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
 	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
@@ -118,7 +119,7 @@ org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shado
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.5.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.5.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[18:53:00] [Render thread/ERROR] (FabricLoader) Minecraft has crashed!
+[19:08:59] [Render thread/ERROR] (FabricLoader) Minecraft has crashed!
 net.fabricmc.loader.impl.FormattedException: java.lang.RuntimeException: Mixin transformation of net.minecraft.client.MinecraftClient failed
 	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63) ~[fabric-loader-0.16.5.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:482) ~[fabric-loader-0.16.5.jar:?]
