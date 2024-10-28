@@ -25,12 +25,12 @@ public class PipeBombProjectileEntity extends ThrownItemEntity {
     }
 
     public PipeBombProjectileEntity(LivingEntity livingEntity, World world) {
-        super(ModEntities.MOLOTOV_PROJECTILE, livingEntity, world);
+        super(ModEntities.PBOMB_PROJECTILE, livingEntity, world);
     }
 
     @Override
     protected Item getDefaultItem() {
-        return ModItems.MOLOTOV;
+        return ModItems.PIPE_BOMB;
     }
 
     protected ParticleEffect getParticleType() {
