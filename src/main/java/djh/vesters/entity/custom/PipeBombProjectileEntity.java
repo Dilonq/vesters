@@ -2,7 +2,7 @@ package djh.vesters.entity.custom;
 
 import djh.vesters.entity.ModEntities;
 import djh.vesters.item.ModItems;
-import djh.vesters.world.custom.MolotovExplosion;
+import djh.vesters.world.custom.PipeBombExplosion;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.projectile.thrown.ThrownItemEntity;
@@ -72,11 +72,11 @@ public class PipeBombProjectileEntity extends ThrownItemEntity {
 
     public void explodeAt(World world, Vec3d pos){
         //just set fire, don't damage entities or blocks
-        MolotovExplosion explosion = new MolotovExplosion(world, null, pos.getX(), pos.getY(), pos.getZ(), 4.0f);
+        PipeBombExplosion explosion = new PipeBombExplosion(world, null, pos.getX(), pos.getY(), pos.getZ(), 4.0f);
         explosion.collectBlocksAndDamageEntities();
         explosion.affectWorld(true);
 
-        world.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ENTITY_SPLASH_POTION_BREAK, SoundCategory.BLOCKS, 1.0F, 1.0F);
+        world.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ENTITY_GENERIC_EXPLODE, SoundCategory.BLOCKS, 1.0F, 1.0F);
         world.playSound(null, pos.getX(), pos.getY(), pos.getZ(), SoundEvents.ENTITY_DRAGON_FIREBALL_EXPLODE, SoundCategory.BLOCKS, 1.0F, 1.1F);
     }
 }

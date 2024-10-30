@@ -19,6 +19,7 @@ public class ModItems {
     public static final Item MOLOTOV = registerItem("molotov",new MolotovItem(new FabricItemSettings().maxCount(3)));
     public static final Item BOMB_FOOD = registerItem("bomb_food",new BombFoodItem(new FabricItemSettings().maxCount(1)));
     public static final Item PIPE_BOMB = registerItem("pipe_bomb",new PipeBombItem(new FabricItemSettings().maxCount(3)));
+    public static final Item CONDENSED_GUNPOWDER = registerItem("condensed_gunpowder",new CondensedGunpowderItem(new FabricItemSettings().maxCount(64)));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries){
         //commented out because everything just gets added to a custom item group in the ModItemGroups class

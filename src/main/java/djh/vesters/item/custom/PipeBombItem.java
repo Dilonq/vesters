@@ -1,6 +1,7 @@
 package djh.vesters.item.custom;
 
 import djh.vesters.entity.custom.MolotovProjectileEntity;
+import djh.vesters.entity.custom.PipeBombProjectileEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -32,10 +33,10 @@ public class PipeBombItem extends Item{
                 0.4F / (world.getRandom().nextFloat() * 0.4F + 0.8F)
         );
         if (!world.isClient) {
-            MolotovProjectileEntity molotovProjectileEntity = new MolotovProjectileEntity(user, world);
-            molotovProjectileEntity.setItem(itemStack);
-            molotovProjectileEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 1.0F);
-            world.spawnEntity(molotovProjectileEntity);
+            PipeBombProjectileEntity PipeBombProjectileEntity = new PipeBombProjectileEntity(user, world);
+            PipeBombProjectileEntity.setItem(itemStack);
+            PipeBombProjectileEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 1.0F);
+            world.spawnEntity(PipeBombProjectileEntity);
         }
 
         user.incrementStat(Stats.USED.getOrCreateStat(this));

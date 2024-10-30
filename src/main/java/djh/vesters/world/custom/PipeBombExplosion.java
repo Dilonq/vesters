@@ -3,6 +3,7 @@ package djh.vesters.world.custom;
 import com.google.common.collect.Maps;
 import com.google.common.collect.Sets;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
+import net.minecraft.block.AbstractFireBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
@@ -176,5 +177,15 @@ public class PipeBombExplosion extends Explosion {
             }
         }
 
+
+        //apply LOTS of fire
+        for (BlockPos blockPos3 : this.accessableAffectedBlocks) {
+            Random random = new Random();
+            if (random.nextInt(100) <= 80//80% coverage (maybe off by 1)
+                    && this.accessableWorld.getBlockState(blockPos3).isAir()
+                    && this.accessableWorld.getBlockState(blockPos3.down()).isOpaqueFullCube(this.accessableWorld, blockPos3.down())) {
+                this.accessableWorld.setBlockState(blockPos3, AbstractFireBlock.getState(this.accessableWorld, blockPos3));
+            }
         }
     }
+}
