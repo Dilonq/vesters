@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item PHONE = registerItem("phone", new PhoneItem(new FabricItemSettings().maxCount(1)));
+    public static final Item WIRE_CUTTERS = registerItem("wire_cutters", new WireCuttersItem(new FabricItemSettings().maxCount(1)));
     public static final Item C4 = registerItem("c4", new C4Item(new FabricItemSettings().maxCount(1)));
     public static final Item BOMB_VEST = registerItem("bomb_vest",new BombVestItem(ModArmorMaterials.BOMB_VEST, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item MOLOTOV = registerItem("molotov",new MolotovItem(new FabricItemSettings().maxCount(3)));

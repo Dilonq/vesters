@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PIPE_BOMB);
                         entries.add(ModBlocks.REMOTE_BOMB_BLOCK);
                         entries.add(ModItems.CONDENSED_GUNPOWDER);
+                        entries.add(ModItems.WIRE_CUTTERS);
                     }).build());
     public static void registerItemGroups(){
         Vesters.LOGGER.info("Registering Item Groups for "+Vesters.MOD_ID);

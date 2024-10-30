@@ -13,7 +13,7 @@ import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
 public class PipeBombItem extends Item{
-    private int cooldown = 120;
+    private int cooldown = 60;
     public PipeBombItem(Settings settings){
         super(settings);
     }
@@ -33,7 +33,7 @@ public class PipeBombItem extends Item{
                 0.4F / (world.getRandom().nextFloat() * 0.4F + 0.8F)
         );
         if (!world.isClient) {
-            PipeBombProjectileEntity PipeBombProjectileEntity = new PipeBombProjectileEntity(user, world);
+            PipeBombProjectileEntity PipeBombProjectileEntity = new PipeBombProjectileEntity(world, user);
             PipeBombProjectileEntity.setItem(itemStack);
             PipeBombProjectileEntity.setVelocity(user, user.getPitch(), user.getYaw(), 0.0F, 1.5F, 1.0F);
             world.spawnEntity(PipeBombProjectileEntity);

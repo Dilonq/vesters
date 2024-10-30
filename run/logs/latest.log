@@ -1,5 +1,5 @@
-[00:30:44] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
-[00:30:44] [main/INFO] (FabricLoader) Loading 59 mods:
+[01:39:18] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.16.5
+[01:39:19] [main/INFO] (FabricLoader) Loading 59 mods:
 	- fabric-api 0.92.2+1.20.1
 	- fabric-api-base 0.4.31+1802ada577
 	- fabric-api-lookup-api-v1 1.6.36+1802ada577
@@ -59,126 +59,97 @@
 	- minecraft 1.20.1
 	- mixinextras 0.4.1
 	- vesters 0.2-1.20.1
-[00:30:44] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/tsthi/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
-[00:30:44] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[00:30:44] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[00:30:44] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[00:30:45] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/class_638$class_5612 (java.lang.ClassNotFoundException: net/minecraft/class_638$class_5612)
-[00:30:45] [main/WARN] (FabricLoader/Mixin) @Mixin target net/minecraft/class_638$class_5612 was not found fabric-lifecycle-events-v1.client.mixins.json:ClientWorldClientEntityHandlerMixin from mod fabric-lifecycle-events-v1
-[00:30:45] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/class_5944$1 (java.lang.ClassNotFoundException: net/minecraft/class_5944$1)
-[00:30:45] [main/WARN] (FabricLoader/Mixin) @Mixin target net/minecraft/class_5944$1 was not found fabric-rendering-v1.mixins.json:shader.ShaderProgramImportProcessorMixin from mod fabric-rendering-v1
-[00:30:45] [main/WARN] (FabricLoader/Mixin) Error loading class: net/minecraft/class_1088$class_7778 (java.lang.ClassNotFoundException: net/minecraft/class_1088$class_7778)
-[00:30:45] [main/WARN] (FabricLoader/Mixin) @Mixin target net/minecraft/class_1088$class_7778 was not found fabric-model-loading-api-v1.mixins.json:ModelLoaderBakerImplMixin from mod fabric-model-loading-api-v1
-[00:30:45] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[00:30:49] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 98 milliseconds
-[00:30:50] [Render thread/ERROR] (FabricLoader/Mixin) Mixin apply for mod fabric-events-interaction-v0 failed fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 -> net.minecraft.client.MinecraftClient: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
-org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:340) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1292) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.5.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at net.minecraft.client.main.Main.main(Main.java:188) ~[minecraft-merged-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+[01:39:19] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/tsthi/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/51ee0a44ab05f6fddd66b09e66b3a16904f9c55d/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[01:39:19] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[01:39:19] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[01:39:19] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[01:39:20] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:39:23] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 107 milliseconds
+[01:39:25] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:39:25] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:733) ~[minecraft-merged-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:442) ~[minecraft-merged-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[minecraft-merged-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.5.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.5.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.5.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[00:30:50] [Render thread/ERROR] (FabricLoader/Mixin) Mixin apply for mod fabric-events-interaction-v0 failed fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 -> net.minecraft.client.MinecraftClient: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
-org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:340) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1292) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.5.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at net.minecraft.client.main.Main.main(Main.java:197) ~[minecraft-merged-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-[00:30:50] [Render thread/ERROR] (FabricLoader) Minecraft has crashed!
-net.fabricmc.loader.impl.FormattedException: java.lang.RuntimeException: Mixin transformation of net.minecraft.client.MinecraftClient failed
-	at net.fabricmc.loader.impl.FormattedException.ofLocalized(FormattedException.java:63) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:482) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-Caused by: java.lang.RuntimeException: Mixin transformation of net.minecraft.client.MinecraftClient failed
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:427) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.5.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at net.minecraft.client.main.Main.main(Main.java:197) ~[minecraft-merged-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.5.jar:?]
-	... 3 more
-Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:392) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.5.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at net.minecraft.client.main.Main.main(Main.java:197) ~[minecraft-merged-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.5.jar:?]
-	... 3 more
-Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0] from phase [DEFAULT] in config [fabric-events-interaction-v0.client.mixins.json] FAILED during APPLY
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinError(MixinProcessor.java:638) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.handleMixinApplyError(MixinProcessor.java:589) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:379) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.5.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at net.minecraft.client.main.Main.main(Main.java:197) ~[minecraft-merged-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.5.jar:?]
-	... 3 more
-Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: @Shadow method method_1562 in fabric-events-interaction-v0.client.mixins.json:MinecraftClientMixin from mod fabric-events-interaction-v0 was not located in the target class net.minecraft.client.MinecraftClient. Using refmap client-fabric-events-interaction-v0-refmap.json
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachSpecialMethod(MixinPreProcessorStandard.java:436) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachShadowMethod(MixinPreProcessorStandard.java:412) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attachMethods(MixinPreProcessorStandard.java:340) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.attach(MixinPreProcessorStandard.java:299) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.createContextFor(MixinPreProcessorStandard.java:277) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo.createContextFor(MixinInfo.java:1292) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:203) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.apply(TargetClassContext.java:437) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:418) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:363) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:234) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:202) ~[sponge-mixin-0.15.3+mixin.0.8.7.jar:0.15.3+mixin.0.8.7]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.getPostMixinClassByteArray(KnotClassDelegate.java:422) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.tryLoadClass(KnotClassDelegate.java:323) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassDelegate.loadClass(KnotClassDelegate.java:218) ~[fabric-loader-0.16.5.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClassLoader.loadClass(KnotClassLoader.java:119) ~[fabric-loader-0.16.5.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[?:?]
-	at net.minecraft.client.main.Main.main(Main.java:197) ~[minecraft-merged-7787b014d4-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) ~[fabric-loader-0.16.5.jar:?]
-	... 3 more
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 9 more
+[01:39:25] [Render thread/INFO] (Minecraft) Setting user: Player308
+[01:39:25] [Render thread/INFO] (vesters) Registering Item Groups for vesters
+[01:39:25] [Render thread/INFO] (vesters) Registering Mod Blocks for vesters
+[01:39:25] [Render thread/INFO] (vesters) Registering Mod Items for vesters
+[01:39:25] [Render thread/INFO] (vesters) Registering Status Effects for vesters
+[01:39:25] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[01:39:25] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.1 SNAPSHOT
+[01:39:26] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-models-v0, fabric-loot-tables-v1, fabric-biome-api-v1, fabric-events-lifecycle-v0, fabric-key-binding-api-v1, fabric-model-loading-api-v1, fabric-renderer-registries-v1, fabric-content-registries-v0, fabric-networking-api-v1, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-data-attachment-api-v1, fabric-rendering-v1, fabric-transitive-access-wideners-v1, fabric-recipe-api-v1, fabric-screen-handler-api-v1, fabric-item-group-api-v1, fabric-block-view-api-v2, fabric-gametest-api-v1, fabric-renderer-api-v1, fabric-rendering-data-attachment-v1, fabric-keybindings-v0, fabric-api, fabric-entity-events-v1, fabric-resource-conditions-api-v1, fabric-transfer-api-v1, fabric-rendering-v0, fabric-networking-v0, fabric-crash-report-info-v1, fabric-registry-sync-v0, fabric-client-tags-api-v1, fabric-dimensions-v1, fabric-mining-level-api-v1, fabric-particles-v1, fabric-events-interaction-v0, fabric-loot-api-v2, fabric-api-base, fabric-containers-v0, fabric-rendering-fluids-v1, fabric-resource-loader-v0, fabric-convention-tags-v1, fabric-sound-api-v1, fabric-blockrenderlayer-v1, fabric-block-api-v1, fabric-lifecycle-events-v1, fabric-api-lookup-api-v1, vesters, fabric-renderer-indigo, fabricloader, fabric-commands-v0, fabric-data-generation-api-v1, fabric-object-builder-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-message-api-v1, fabric-screen-api-v1)
+[01:39:26] [Worker-Main-5/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[01:39:27] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[01:39:27] [Worker-Main-9/WARN] (Minecraft) Exception loading blockstate definition: 'vesters:blockstates/remote_bomb_block.json' missing model for variant: 'vesters:remote_bomb_block#'
+[01:39:27] [Worker-Main-9/WARN] (Minecraft) Unable to load model: 'vesters:remote_bomb_block#inventory' referenced from: vesters:remote_bomb_block#inventory: java.io.FileNotFoundException: vesters:models/item/remote_bomb_block.json
+[01:39:27] [Worker-Main-9/WARN] (Minecraft) Missing textures in model vesters:bomb_food#inventory:
+    minecraft:textures/atlas/blocks.png:vesters:item/bomb_food
+[01:39:27] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[01:39:27] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[01:39:27] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headphones (Realtek(R) Audio)
+[01:39:27] [Render thread/INFO] (Minecraft) Sound engine started
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[01:39:28] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[01:39:28] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[01:39:34] [Render thread/INFO] (FabricRegistrySync) [fabric-registry-sync] Loaded registry data [file 1/4]
+[01:39:34] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[01:39:34] [Render thread/INFO] (Minecraft) Loaded 1271 advancements
+[01:39:34] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 1.106 ms
+[01:39:34] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[01:39:34] [Server thread/INFO] (Minecraft) Generating keypair
+[01:39:35] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[01:39:37] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:39:37] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:39:37] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:39:37] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:39:37] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[01:39:38] [Render thread/INFO] (Minecraft) Time elapsed: 2416 ms
+[01:39:38] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[01:39:38] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[01:39:38] [Server thread/INFO] (Minecraft) Player308[local:E:acafa265] logged in with entity id 172 at (-80.19635553253931, 73.00133597911214, 10.205000446477294)
+[01:39:39] [Server thread/INFO] (Minecraft) Player308 joined the game
+[01:39:40] [Render thread/INFO] (Minecraft) Loaded 20 advancements
+[01:39:45] [Render thread/INFO] (Minecraft) Loaded 23 advancements
+[01:39:52] [Server thread/INFO] (Minecraft) Player308 has made the advancement [Acquire Hardware]
+[01:39:52] [Render thread/INFO] (Minecraft) [System] [CHAT] Player308 has made the advancement [Acquire Hardware]
+[01:39:52] [Render thread/INFO] (Minecraft) Loaded 54 advancements
+[01:39:58] [Render thread/INFO] (Minecraft) Loaded 57 advancements
+[01:40:04] [Render thread/INFO] (Minecraft) Loaded 65 advancements
+[01:40:18] [Render thread/INFO] (Minecraft) Stopping!
+[01:40:18] [Server thread/INFO] (Minecraft) Player308 lost connection: Disconnected
+[01:40:18] [Server thread/INFO] (Minecraft) Player308 left the game
+[01:40:18] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[01:40:18] [Server thread/INFO] (Minecraft) Stopping server
+[01:40:18] [Server thread/INFO] (Minecraft) Saving players
+[01:40:18] [Server thread/INFO] (Minecraft) Saving worlds
+[01:40:18] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[01:40:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[01:40:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[01:40:19] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[01:40:19] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:40:19] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:40:19] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
