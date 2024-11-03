@@ -23,6 +23,8 @@ public class ModItemGroups {
                         entries.add(ModItems.BOMB_FOOD);
                         entries.add(ModItems.PIPE_BOMB);
                         entries.add(ModBlocks.REMOTE_BOMB_BLOCK);
+                        entries.add(ModBlocks.BREACH_CHARGE_BLOCK);
+                        entries.add(ModBlocks.ADVANCED_BOMB_BLOCK);
                         entries.add(ModItems.CONDENSED_GUNPOWDER);
                         entries.add(ModItems.WIRE_CUTTERS);
                     }).build());

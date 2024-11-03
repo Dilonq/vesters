@@ -7,6 +7,8 @@
   "item.vesters.pipe_bomb": "Pipe Bomb",
   "item.vesters.condensed_gunpowder": "Condensed Gunpowder",
   "item.vesters.wire_cutters": "Wire Cutters",
+  "block.vesters.advanced_bomb_block": "Advanced Bomb",
+  "block.vesters.breach_charge_block": "Breach Charge",
 
 
   "itemgroup.vesters": "Vesters",

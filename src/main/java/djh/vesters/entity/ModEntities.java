@@ -1,6 +1,8 @@
 package djh.vesters.entity;
 
 import djh.vesters.Vesters;
+import djh.vesters.block.custom.AdvancedBombBlock;
+import djh.vesters.entity.custom.AdvancedBombEntity;
 import djh.vesters.entity.custom.MolotovProjectileEntity;
 import djh.vesters.entity.custom.PipeBombProjectileEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
@@ -19,5 +21,9 @@ public class ModEntities {
     public static final EntityType<PipeBombProjectileEntity> PBOMB_PROJECTILE = Registry.register(Registries.ENTITY_TYPE,
             new Identifier(Vesters.MOD_ID, "pbomb_projectile"), FabricEntityTypeBuilder.<PipeBombProjectileEntity>create(SpawnGroup.MISC, PipeBombProjectileEntity::new)
                     .dimensions(EntityDimensions.fixed(0.25f,0.25f)).build());
+    public static final EntityType<AdvancedBombEntity> ADVANCED_BOMB_ENTITY = Registry.register(Registries.ENTITY_TYPE,
+            new Identifier(Vesters.MOD_ID, "advanced_bomb_entity"), FabricEntityTypeBuilder.<AdvancedBombEntity>create(SpawnGroup.MISC, AdvancedBombEntity::new)
+                    .dimensions(EntityDimensions.fixed(1f,1f)).build());
+
 
 }

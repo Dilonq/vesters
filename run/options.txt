@@ -15,13 +15,13 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
-mouseSensitivity:0.5
+mouseSensitivity:0.23415492957746478
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
