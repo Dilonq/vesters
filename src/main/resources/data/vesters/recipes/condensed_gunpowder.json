@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "minecraft:gunpowder"
+    },
+    "p": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "TpT",
+    "pTp",
+    "TpT"
+  ],
+  "result": {
+    "item": "vesters:condensed_gunpowder"
+  }
+}

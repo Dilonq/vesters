@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "vesters:condensed_gunpowder"
+    },
+    "p": {
+      "item": "create:electron_tube"
+    },
+    "e": {
+      "item": "createnuclear:lead_refined"
+    }
+  },
+  "pattern": [
+    "TeT",
+    "epe",
+    "TeT"
+  ],
+  "result": {
+    "item": "vesters:advanced_bomb_block"
+  }
+}
