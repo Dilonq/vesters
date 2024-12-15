@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "vesters:block/breach_charge_block_bottom",
+    "side": "vesters:block/breach_charge_block_side",
+    "top": "vesters:block/breach_charge_block_top"
+  }
+}

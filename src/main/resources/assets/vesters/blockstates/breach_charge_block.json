@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vesters:block/breach_charge_block"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "vesters:block/remote_bomb_block_bottom",
+    "side": "vesters:block/remote_bomb_block_side",
+    "top": "vesters:block/remote_bomb_block_top"
+  }
+}

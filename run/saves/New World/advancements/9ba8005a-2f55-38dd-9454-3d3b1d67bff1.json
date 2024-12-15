@@ -149,12 +149,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2024-12-13 22:56:47 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/white_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-13 22:56:38 -0500"
@@ -185,12 +179,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:desert": "2024-12-13 22:56:40 -0500"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/sandstone_wall": {
     "criteria": {
       "has_sandstone": "2024-12-13 22:56:38 -0500"
@@ -206,6 +194,24 @@
   "minecraft:recipes/building_blocks/cyan_concrete_powder": {
     "criteria": {
       "has_sand": "2024-12-13 22:56:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2024-12-13 22:56:40 -0500"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-13 22:56:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-12-15 06:29:54 -0500"
     },
     "done": true
   },

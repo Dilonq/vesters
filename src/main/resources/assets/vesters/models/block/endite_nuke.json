@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "vesters:block/endite_nuke_bottom",
+    "side": "vesters:block/endite_nuke_side",
+    "top": "vesters:block/endite_nuke_top"
+  }
+}
