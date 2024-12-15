@@ -19,6 +19,8 @@ public class ModBlocks {
             new AdvancedBombBlock(FabricBlockSettings.copyOf(Blocks.TNT)));
     public static final Block BREACH_CHARGE_BLOCK = registerBlock("breach_charge_block",
             new Block(FabricBlockSettings.copyOf(Blocks.TNT)));
+    public static final Block ENDITE_NUKE = registerBlock("endite_nuke",
+            new Block(FabricBlockSettings.copyOf(Blocks.TNT)));
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK, new Identifier(Vesters.MOD_ID, name), block);
